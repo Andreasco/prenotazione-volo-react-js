@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3672747f-3590-4ad7-92cd-21da42d54ce4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DashboardAmministratore/DashboardAmministratore.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DashboardAmministratore/DashboardAmministratore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DashboardUtente/DashboardUtente.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DashboardUtente/DashboardUtente.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/Home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoginAmministratore/LoginAmministratore.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoginAmministratore/LoginAmministratore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoginUtente/LoginUtente.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoginUtente/LoginUtente.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NavBar/NavBar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NavBar/NavBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PageNotFound/PageNotFound.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PageNotFound/PageNotFound.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prenotazioni/PrenotazioniUtente.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prenotazioni/PrenotazioniUtente.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Aeroporto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Amministratore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Prenotazione.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Tratta.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Utente.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Volo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/SfondoGlobale.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/SfondoHome.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prenotazione-volo-react-js.iml" beforeDir="false" afterPath="$PROJECT_DIR$/prenotazione-volo-react-js.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DashboardAmministratore/DashboardAmministratore.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/DashboardAmministratore/DashboardAmministratore.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +177,16 @@
       <workItem from="1580402889159" duration="6954000" />
       <workItem from="1580462188793" duration="3877000" />
       <workItem from="1580549888920" duration="10751000" />
+      <workItem from="1580719439639" duration="1196000" />
     </task>
+    <task id="LOCAL-00001" summary="Ricopiato sito Angular e aggiunta barra di navigazione">
+      <created>1580719572804</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580719572804</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +205,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ricopiato sito Angular e aggiunta barra di navigazione" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ricopiato sito Angular e aggiunta barra di navigazione" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="181" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579623126599">
       <screen x="0" y="23" width="1440" height="877" />
@@ -237,22 +222,26 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="406" y="186" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.877@0.23.1440.877" timestamp="1579792899350" />
-    <state width="1358" height="212" key="GridCell.Tab.0.bottom" timestamp="1580597861054">
+    <state x="200" y="47" key="CommitChangelistDialog2" timestamp="1580719572390">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="212" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1580597861054" />
-    <state width="1358" height="212" key="GridCell.Tab.0.center" timestamp="1580597861053">
+    <state x="200" y="47" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1580719572390" />
+    <state width="1358" height="212" key="GridCell.Tab.0.bottom" timestamp="1580720746828">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="212" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1580597861053" />
-    <state width="1358" height="212" key="GridCell.Tab.0.left" timestamp="1580597861052">
+    <state width="1358" height="212" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1580720746828" />
+    <state width="1358" height="212" key="GridCell.Tab.0.center" timestamp="1580720746826">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="212" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1580597861052" />
-    <state width="1358" height="212" key="GridCell.Tab.0.right" timestamp="1580597861053">
+    <state width="1358" height="212" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1580720746826" />
+    <state width="1358" height="212" key="GridCell.Tab.0.left" timestamp="1580720746825">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="212" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1580597861053" />
+    <state width="1358" height="212" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1580720746825" />
+    <state width="1358" height="212" key="GridCell.Tab.0.right" timestamp="1580720746827">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="212" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1580720746827" />
     <state width="1358" height="269" key="GridCell.Tab.1.bottom" timestamp="1579899326086">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

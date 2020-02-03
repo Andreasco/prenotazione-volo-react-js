@@ -1,9 +1,6 @@
-html {
-    overflow-y: scroll;
-}
-
 body{
     position: absolute;
+    overflow-y: scroll;
 }
 
 h1.titolo{
