@@ -1,0 +1,78 @@
+html {
+    overflow-y: scroll;
+}
+
+body{
+    position: absolute;
+}
+
+h1.titolo{
+    text-align: center;
+    font-size: 300%;
+}
+
+input.inputAeroporto{
+    color: black;
+}
+
+p.euro{
+    color: #3f0900;
+    display: inline;
+}
+
+button{
+    color: black
+}
+
+select.aerPartenza, select.aerDestinazione{
+    margin: 5px
+}
+
+div{
+    border-radius: 5px;
+}
+
+div.tabellaAeroportiVoli{
+    position: absolute;
+    top: 150px;
+    border-radius: 10px;
+    left: 20px;
+}
+
+div.aggiuntaAeroporto{
+    text-align: center;
+}
+
+form{
+    position: relative;
+    top: 5px;
+}
+
+div.tabellaTratteVoli{
+    position: absolute;
+    top: 150px;
+    border-radius: 10px;
+    left: 600px;
+    text-align: center;
+}
+
+div.tabellaTratte, div.tabellaVoli, div.tabellaAeroporti, div.aggiuntaVoli{
+    background: #68bdff;
+}
+
+input.inputAggiuntaVoli{
+    color: #3f0900
+}
+
+div.tabellaVoli{
+    width: 600px;
+}
+
+tr.cellaTratta:hover,tr.cellaAeroporti:hover, tr.cellaVoli:hover{
+    background: #1dff31;
+}
+
+.react-datepicker-popper{
+    color: #3f0900;
+}
+

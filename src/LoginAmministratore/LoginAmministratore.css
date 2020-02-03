@@ -1,0 +1,45 @@
+html, body
+{
+    height: 100%;
+    background-image: url(../images/SfondoGlobale.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    min-width: 100%;
+    margin: 0;
+    right: 0;
+    top: 0;
+}
+
+div.log-form{
+    position: absolute;
+    left: 500px;
+    bottom: 250px;
+    height: 45%;
+    width: 35%;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 50px;
+    text-align: center;
+}
+
+form{
+    position: relative;
+    top: 25px;
+}
+
+.log-form h1{
+    font-size: 250%;
+    margin-top: 50px;
+}
+
+button{
+    border-radius: 6px;
+    font-weight: 400;
+    background: #f3cc2f;
+    color: #3f0900;
+}
+
+input, button{
+    font-size: 150%;
+    margin: 10px;
+}

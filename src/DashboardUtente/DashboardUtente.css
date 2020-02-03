@@ -1,0 +1,49 @@
+html {
+    overflow-y: scroll;
+}
+
+body{
+    position: absolute;
+}
+
+form.formSceltaTratta{
+    top: 0;
+}
+
+input.sceltaAeroporto{
+    margin: 5px;
+}
+
+select.nPostiScelti{
+    margin: 5px;
+}
+
+div.sceltaTratta{
+    position: absolute;
+    top: 150px;
+    border-radius: 10px;
+    left: 20px;
+}
+
+div.sceltaTratta, div.dettaglio{
+    background: #68bdff;
+}
+
+div.dettaglio{
+    position: absolute;
+    top: 150px;
+    border-radius: 10px;
+    left: 600px;
+    text-align: center;
+}
+
+tr.cellaTratte:hover, tr.cellaVoliDisponibili:hover{
+    background: #1dff31;
+}
+
+button.goPrenotazioni{
+    position: absolute;
+    left: 600px;
+    font-size: 150%;
+    top: 90px;
+}
