@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3672747f-3590-4ad7-92cd-21da42d54ce4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DashboardUtente/DashboardUtente.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DashboardUtente/DashboardUtente.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoginAmministratore/LoginAmministratore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginAmministratore/LoginAmministratore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoginUtente/LoginUtente.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginUtente/LoginUtente.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prenotazioni/PrenotazioniUtente.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prenotazioni/PrenotazioniUtente.js" afterDir="false" />
-    </list>
+    <list default="true" id="3672747f-3590-4ad7-92cd-21da42d54ce4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +45,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
@@ -202,6 +196,7 @@
       <workItem from="1584615627547" duration="1937000" />
       <workItem from="1584629977450" duration="5686000" />
       <workItem from="1584897568641" duration="31000" />
+      <workItem from="1584897619665" duration="353000" />
     </task>
     <task id="LOCAL-00001" summary="Ricopiato sito Angular e aggiunta barra di navigazione">
       <created>1580719572804</created>
@@ -217,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580721023198</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Sistemato l'ordine del codice">
+      <created>1584897744455</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584897744455</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +241,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ricopiato sito Angular e aggiunta barra di navigazione" />
     <MESSAGE value="Sistemato overflow pagina" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sistemato overflow pagina" />
+    <MESSAGE value="Sistemato l'ordine del codice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sistemato l'ordine del codice" />
   </component>
   <component name="WindowStateProjectService">
     <state x="318" y="117" key="#Updates" timestamp="1584615537816">
@@ -258,10 +261,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="406" y="186" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.877@0.23.1440.877" timestamp="1584897593302" />
-    <state x="200" y="47" key="CommitChangelistDialog2" timestamp="1580721022845">
+    <state x="200" y="47" key="CommitChangelistDialog2" timestamp="1584898197836">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="200" y="47" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1580721022845" />
+    <state x="200" y="47" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1584898197836" />
     <state width="1358" height="211" key="GridCell.Tab.0.bottom" timestamp="1584643704182">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -334,10 +337,14 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="375" y="160" key="RollbackChangesDialog/0.23.1440.877@0.23.1440.877" timestamp="1580571421732" />
-    <state x="211" y="66" key="SettingsEditor" timestamp="1584615761245">
+    <state x="211" y="66" key="SettingsEditor" timestamp="1584898221888">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="211" y="66" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1584615761245" />
+    <state x="211" y="66" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1584898221888" />
+    <state x="313" y="169" key="Vcs.Push.Dialog.v2" timestamp="1584898181885">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="313" y="169" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1584898181885" />
     <state x="95" y="177" key="new project wizard" timestamp="1579600890850">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
