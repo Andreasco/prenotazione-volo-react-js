@@ -54,14 +54,6 @@ class LoginUtente extends Component{
         this.verificaUtente(utente);
     }
 
-    registrazioneUtente(e: React.MouseEvent<HTMLButtonElement, MouseEvent>){
-        e.preventDefault();
-        const utente = new Utente();
-        utente.username = this.state.usernameUtente;
-        utente.password = this.state.passwordUtente;
-        this.creaUtente(utente);
-    }
-
     verificaUtente(utente: Utente){
         axios.get(this.urlLogin + '/' + utente.username + '-' + utente.password)
             .then(resp => {
@@ -72,18 +64,20 @@ class LoginUtente extends Component{
             })
     }
 
+    registrazioneUtente(e: React.MouseEvent<HTMLButtonElement, MouseEvent>){
+        e.preventDefault();
+        const utente = new Utente();
+        utente.username = this.state.usernameUtente;
+        utente.password = this.state.passwordUtente;
+        this.creaUtente(utente);
+    }
+
     creaUtente(utente: Utente) {
         axios.post(this.urlLogin, utente, httpOptions).then(() => {});
         window.location.reload();
     }
 
     go(utente: Utente){
-        /*// è un modo per reindirizzare l'utente anche se non è quello giusto
-        const link = "/amministratore/" + utente.username;
-        // eslint-disable-next-line no-restricted-globals
-        history.pushState(null, "Dashboard", link);
-        window.location.reload();*/
-
         this.props.history.push('/utente/' + utente.username);
     }
 }

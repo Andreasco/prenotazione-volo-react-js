@@ -20,8 +20,13 @@ class PrenotazioniUtente extends Component {
 
         this.getUsernameUtente();
         this.getPrenotazioniUtente();
-        this.goDashboard = this.goDashboard.bind(this);
         this.cancellaPrenotazione = this.cancellaPrenotazione.bind(this);
+    }
+
+    /***************** OPERAZIONI INIZIALI ***********************/
+
+    getUsernameUtente(){
+        this.state.utente = window.location.pathname.split('/')[2].toString(); //perchè setState è asincrono e non si vedrebbe il nome nella pagina
     }
 
     getPrenotazioniUtente(){
@@ -32,18 +37,7 @@ class PrenotazioniUtente extends Component {
         );
     }
 
-    getUsernameUtente(){
-        this.state.utente = window.location.pathname.split('/')[2].toString(); //perchè setState è asincrono e non si vedrebbe il nome nella pagina
-    }
-
-    goDashboard(event){
-        event.preventDefault();
-        this.props.history.push('/utente/' + this.state.utente);
-    }
-
-    selezionaPrenotazione(prenotazione){
-        this.setState({prenotazioneSelezionata : prenotazione});
-    }
+    /***************** OPERAZIONI CANCELLAZIONE ***********************/
 
     cancellaPrenotazione(){
         const idPrenotazione = this.state.prenotazioneSelezionata.id;
@@ -51,10 +45,18 @@ class PrenotazioniUtente extends Component {
         window.location.reload();
     }
 
+    /***************** OPERAZIONI AUSILIARIE ***********************/
+
+    selezionaPrenotazione(prenotazione){
+        this.setState({prenotazioneSelezionata : prenotazione});
+    }
+
     convertiTimestamp(timestamp){
         const date = new Date(timestamp);
         return date.toString();
     }
+
+    /***************** CODICE HTML ***********************/
 
     render() {
         return (

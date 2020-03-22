@@ -35,7 +35,6 @@ class DashboardUtente extends Component {
 
         this.getUtenteLoggato();
         this.listAllTratte();
-        this.goPrenotazioni = this.goPrenotazioni.bind(this);
         this.cercaTratte = this.cercaTratte.bind(this);
         this.listAllTratte = this.listAllTratte.bind(this);
         this.getTratteByAeroportoPartenza = this.getTratteByAeroportoPartenza.bind(this);
@@ -49,17 +48,16 @@ class DashboardUtente extends Component {
         this.getUtenteLoggato = this.getUtenteLoggato.bind(this);
     }
 
-    goPrenotazioni(event){
-        event.preventDefault();
-        this.props.history.push('/utente/' + this.state.utenteLoggato.username + '/prenotazioni');
-    }
+    /***************** OPERAZIONI INIZIALI ***********************/
 
-    cercaTratte(event){
-        event.preventDefault();
-        this.getTratteByAeroportoPartenza();
-        if (this.state.aeroportoRicerca === "") {
-            this.listAllTratte();
-        }
+    getUtenteLoggato(){
+        const username = window.location.pathname.split('/')[2].toString();
+        axios.get(this.urlUtente + '/' + username).then(
+            utente => {
+                //console.log(utente.data.username);
+                this.setState({utenteLoggato : utente.data});
+            }
+        );
     }
 
     listAllTratte(){
@@ -70,6 +68,16 @@ class DashboardUtente extends Component {
         );
     }
 
+    /***************** OPERAZIONI RICERCA TRATTE ***********************/
+
+    cercaTratte(event){
+        event.preventDefault();
+        this.getTratteByAeroportoPartenza();
+        if (this.state.aeroportoRicerca === "") {
+            this.listAllTratte();
+        }
+    }
+
     getTratteByAeroportoPartenza(){
         axios.get(this.urlTratta + '/aeroportoPartenza=' + this.state.aeroportoRicerca).then(
             tratte =>{
@@ -77,6 +85,8 @@ class DashboardUtente extends Component {
             }
         );
     }
+
+    /***************** OPERAZIONI SELEZIONE TRATTA ***********************/
 
     selezionaTratta(tratta){
         this.setState({trattaSelezionata: tratta});
@@ -93,6 +103,8 @@ class DashboardUtente extends Component {
         );
     }
 
+    /***************** OPERAZIONI SELEZIONE VOLO ***********************/
+
     selezionaVolo(volo){
         if (this.state.nPostiScelti > volo.postiDisponibili)
             this.setState({nPostiScelti : -1});
@@ -105,12 +117,9 @@ class DashboardUtente extends Component {
             newArray.push(i + 1);
         }
         this.setState({postiDisponibili : newArray});
-
     }
 
-    gestisciSelectNumeroPosti(e){
-        this.setState({nPostiScelti : e.target.value});
-    }
+    /***************** OPERAZIONI PRENOTAZIONE ***********************/
 
     prenota(event){
         event.preventDefault();
@@ -129,20 +138,18 @@ class DashboardUtente extends Component {
         axios.post(this.urlPrenotazione, prenotazione, httpOptions).then(() => {});
     }
 
-    getUtenteLoggato(){
-        const username = window.location.pathname.split('/')[2].toString();
-        axios.get(this.urlUtente + '/' + username).then(
-            utente => {
-                //console.log(utente.data.username);
-                this.setState({utenteLoggato : utente.data});
-            }
-        );
+    /***************** OPERAZIONI AUSILIARIE ***********************/
+
+    gestisciSelectNumeroPosti(e){
+        this.setState({nPostiScelti : e.target.value});
     }
 
     convertiTimestamp(timestamp){
         const date = new Date(timestamp);
         return date.toString();
     }
+
+    /***************** CODICE HTML ***********************/
 
     render() {
         return (
@@ -158,7 +165,7 @@ class DashboardUtente extends Component {
 
                 <NavBar utente="active" flag={true} username={this.state.utenteLoggato.username}/>
 
-                <h1 style={{textAlign: "center", fontSize: "300%"}}>Dashboard utente, prenota un volo!</h1>
+                <h1 style={{textAlign: "center", fontSize: "300%"}}>Dashboard di {this.state.utenteLoggato.username}, prenota un volo!</h1>
 
                 <div className="sceltaTratta">
                     <form className="formSceltaTratta">

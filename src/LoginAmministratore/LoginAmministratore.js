@@ -25,7 +25,7 @@ class LoginAmministratore extends Component{
     render() {
         return (
             <div>
-                <NavBar amministratore="active" username=""/>
+                <NavBar amministratore="active" username="" />
 
                 <div className="log-form">
                     <h1>Ciao amministratore! Fai il login o registrati</h1>
@@ -53,14 +53,6 @@ class LoginAmministratore extends Component{
         this.verificaAmministratore(admin);
     }
 
-    registrazioneAdmin(e: React.MouseEvent<HTMLButtonElement, MouseEvent>){
-        e.preventDefault();
-        const admin = new Amministratore();
-        admin.username = this.state.usernameAmministratore;
-        admin.password = this.state.passwordAmministratore;
-        this.creaAmministratore(admin);
-    }
-
     verificaAmministratore(admin: Amministratore){
         axios.get(this.urlLogin + '/' + admin.username + '-' + admin.password)
             .then(resp => {
@@ -71,18 +63,20 @@ class LoginAmministratore extends Component{
             })
     }
 
+    registrazioneAdmin(e: React.MouseEvent<HTMLButtonElement, MouseEvent>){
+        e.preventDefault();
+        const admin = new Amministratore();
+        admin.username = this.state.usernameAmministratore;
+        admin.password = this.state.passwordAmministratore;
+        this.creaAmministratore(admin);
+    }
+
     creaAmministratore(admin: Amministratore) {
         axios.post(this.urlLogin, admin, httpOptions).then(() => {});
         window.location.reload();
     }
 
     go(admin: Amministratore){
-        /*// è un modo per reindirizzare l'utente anche se non è quello giusto
-        const link = "/amministratore/" + admin.username;
-        // eslint-disable-next-line no-restricted-globals
-        history.pushState(null, "Dashboard", link);
-        window.location.reload();*/
-
         this.props.history.push('/amministratore/' + admin.username);
     }
 }

@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3672747f-3590-4ad7-92cd-21da42d54ce4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DashboardAmministratore/DashboardAmministratore.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/DashboardAmministratore/DashboardAmministratore.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DashboardUtente/DashboardUtente.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DashboardUtente/DashboardUtente.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginAmministratore/LoginAmministratore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginAmministratore/LoginAmministratore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginUtente/LoginUtente.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginUtente/LoginUtente.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prenotazioni/PrenotazioniUtente.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prenotazioni/PrenotazioniUtente.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,18 +55,18 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/LoginUtente" />
+      <recent name="$PROJECT_DIR$/node_modules/react-scripts" />
+      <recent name="$PROJECT_DIR$/node_modules" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/PageNotFound" />
       <recent name="$PROJECT_DIR$/src/Home" />
       <recent name="$PROJECT_DIR$/src/LoginAmministratore" />
       <recent name="$PROJECT_DIR$/src/DashboardAmministratore" />
       <recent name="$PROJECT_DIR$/node_modules/" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/LoginUtente" />
-      <recent name="$PROJECT_DIR$/node_modules/react-scripts" />
-      <recent name="$PROJECT_DIR$/node_modules" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -177,7 +180,28 @@
       <workItem from="1580402889159" duration="6954000" />
       <workItem from="1580462188793" duration="3877000" />
       <workItem from="1580549888920" duration="10751000" />
-      <workItem from="1580719439639" duration="1196000" />
+      <workItem from="1580719439639" duration="1684000" />
+      <workItem from="1580844984438" duration="12000" />
+      <workItem from="1581587601083" duration="34000" />
+      <workItem from="1581587682997" duration="160000" />
+      <workItem from="1581588024986" duration="237000" />
+      <workItem from="1581672210927" duration="480000" />
+      <workItem from="1581673931208" duration="144000" />
+      <workItem from="1583582193445" duration="37000" />
+      <workItem from="1583582251389" duration="2720000" />
+      <workItem from="1583841766577" duration="510000" />
+      <workItem from="1584027472656" duration="90000" />
+      <workItem from="1584382883490" duration="16000" />
+      <workItem from="1584382916112" duration="491000" />
+      <workItem from="1584384110279" duration="815000" />
+      <workItem from="1584389156155" duration="1337000" />
+      <workItem from="1584454718038" duration="500000" />
+      <workItem from="1584528838369" duration="69000" />
+      <workItem from="1584528949935" duration="3729000" />
+      <workItem from="1584615523674" duration="86000" />
+      <workItem from="1584615627547" duration="1937000" />
+      <workItem from="1584629977450" duration="5686000" />
+      <workItem from="1584897568641" duration="31000" />
     </task>
     <task id="LOCAL-00001" summary="Ricopiato sito Angular e aggiunta barra di navigazione">
       <created>1580719572804</created>
@@ -186,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580719572804</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Sistemato overflow pagina">
+      <created>1580721023198</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580721023198</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,9 +238,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ricopiato sito Angular e aggiunta barra di navigazione" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ricopiato sito Angular e aggiunta barra di navigazione" />
+    <MESSAGE value="Sistemato overflow pagina" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sistemato overflow pagina" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="318" y="117" key="#Updates" timestamp="1584615537816">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="318" y="117" key="#Updates/0.23.1440.877@0.23.1440.877" timestamp="1584615537816" />
     <state x="181" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579623126599">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -218,30 +254,30 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="530" y="166" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1579803144935" />
-    <state x="406" y="186" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1579792899350">
+    <state x="406" y="186" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584897593302">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="406" y="186" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.877@0.23.1440.877" timestamp="1579792899350" />
-    <state x="200" y="47" key="CommitChangelistDialog2" timestamp="1580719572390">
+    <state x="406" y="186" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.877@0.23.1440.877" timestamp="1584897593302" />
+    <state x="200" y="47" key="CommitChangelistDialog2" timestamp="1580721022845">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="200" y="47" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1580719572390" />
-    <state width="1358" height="212" key="GridCell.Tab.0.bottom" timestamp="1580720746828">
+    <state x="200" y="47" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1580721022845" />
+    <state width="1358" height="211" key="GridCell.Tab.0.bottom" timestamp="1584643704182">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="212" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1580720746828" />
-    <state width="1358" height="212" key="GridCell.Tab.0.center" timestamp="1580720746826">
+    <state width="1358" height="211" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1584643704182" />
+    <state width="1358" height="211" key="GridCell.Tab.0.center" timestamp="1584643704181">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="212" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1580720746826" />
-    <state width="1358" height="212" key="GridCell.Tab.0.left" timestamp="1580720746825">
+    <state width="1358" height="211" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1584643704181" />
+    <state width="1358" height="211" key="GridCell.Tab.0.left" timestamp="1584643704178">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="212" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1580720746825" />
-    <state width="1358" height="212" key="GridCell.Tab.0.right" timestamp="1580720746827">
+    <state width="1358" height="211" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1584643704178" />
+    <state width="1358" height="211" key="GridCell.Tab.0.right" timestamp="1584643704182">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="212" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1580720746827" />
+    <state width="1358" height="211" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1584643704182" />
     <state width="1358" height="269" key="GridCell.Tab.1.bottom" timestamp="1579899326086">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -298,10 +334,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="375" y="160" key="RollbackChangesDialog/0.23.1440.877@0.23.1440.877" timestamp="1580571421732" />
-    <state x="211" y="81" key="SettingsEditor" timestamp="1580207015817">
+    <state x="211" y="66" key="SettingsEditor" timestamp="1584615761245">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="211" y="81" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1580207015817" />
+    <state x="211" y="66" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1584615761245" />
     <state x="95" y="177" key="new project wizard" timestamp="1579600890850">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
